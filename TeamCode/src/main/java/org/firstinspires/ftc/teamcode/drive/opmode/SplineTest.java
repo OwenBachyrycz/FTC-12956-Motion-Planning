@@ -12,6 +12,9 @@ import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
  * This is an example of a more complex path to really test the tuning.
  * This mostly works with some localization inconsistencies
  * accuracy +- 1" and 10 deg
+ * This error is most likely caused by play in the odomters
+ * this would cause the tuning classes to be unreliable
+ * and the localization to drift significantly
  */
 @Autonomous(group = "drive")
 public class SplineTest extends LinearOpMode {
